@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  width: 800px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-color: #5CDB95;
+}
+
+#encabezado {
+	text-align: center;
+	color: #05386B;
+
+}
+
+#caja_principal {
+	width: 100%;
+	display: flex;
+	justify-content: initial;
+	margin: 0;
+	vertical-align: top;
+}
+
+#col-30 {
+	width: 30%;
+	color: #05386B;
+	background-color: #8EE4AF;
+	margin-right: 5%;
+
+}
+
+#tiempo h4 {
+	text-align: center;
+	height: 30%;
+}
+
+#tiempo #timer{
+	text-align: center;
+	background-color: white;
+	width: 50%;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+#tiempo #iniciar_reloj {
+	width: 50%;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+
+#settings h4 {
+	text-align: center;
+	height: 70%;
+}
+
+#col-70 {
+	width: 70%;
+	color: #EDF5E1;
+}
+
+#col-70 {
+	margin-right: 
+
+}
+
+.cajas {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+
+}
+
+.cajas div {
+	border: 5px solid #379683;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	display: flex;
+	justify-content: initial;
+}
+
+
+.cajas .letras {
+	font-size: 40px;
+	margin:2%;
+	width: 50%;
+
+}
+
+.cajas .categoria {
+	font-size: 30px;
+	margin:2%;
+	width: 50%;
+}
